@@ -1,0 +1,26 @@
+Dataset Source
+
+IEEE-CIS Fraud Detection Dataset  
+
+This project uses the IEEE-CIS Fraud Detection dataset provided on Kaggle.
+
+Download Dataset:  
+https://www.kaggle.com/competitions/ieee-fraud-detection/data
+
+Note:  
+Due to the large size of the dataset, it is not included in this GitHub repository.
+
+Instructions:
+
+1. Download the dataset from the Kaggle link above.  
+2. Extract the files after downloading.  
+3. Place the following files inside the data/ folder of this project.
+
+Required files:
+
+- train_transaction.csv  
+- train_identity.csv  
+- test_transaction.csv  
+- test_identity.csv
+
+After placing the dataset in the data/ folder, you can run the notebooks normally.
