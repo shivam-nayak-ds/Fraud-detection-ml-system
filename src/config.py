@@ -1,20 +1,19 @@
 import os
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DATA_DIR = os.path.join(BASE_DIR , 'data')
+# Base paths
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
+# Updated to nested folder: ieee-fraud-detection
+RAW_DATA_DIR = os.path.join(DATA_DIR, "raw", "ieee-fraud-detection") 
 
-MODEL_DIR = os.path.join(BASE_DIR , 'models')
+# Database configuration
+DATABASE_URL = "sqlite:///data/fraud_detection.db"
+PROCESSED_DATA_DIR = os.path.join(DATA_DIR, "processed")
 
-DATA_PATH = os.path.join(DATA_DIR , 'train_transaction.csv')
-
-MODEL_PATH = os.path.join(MODEL_DIR , 'fraud_model.pkl')
-
-TEST_SIZE = 0.2
-
-RANDOM_STATE = 42
-
-
-TOP_N_FEATURES = 50
-N_ESTIMATORS   = 200
-MAX_DEPTH      = 10
-MISSING_THRESHOLD = 0.5
+# Data files
+FILES_TO_INGEST = [
+    "train_transaction.csv", 
+    "train_identity.csv",
+    "test_transaction.csv",
+    "test_identity.csv"
+]
