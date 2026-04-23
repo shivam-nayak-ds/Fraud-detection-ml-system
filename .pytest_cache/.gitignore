@@ -1,0 +1,90 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Virtual Environment ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env.local
+.env.*.local
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data (too large for git) ─────────────────────────────────────────────────
+data/raw/
+data/processed/
+data/*.db
+data/*.csv
+!data/raw/ieee-fraud-detection/.gitkeep
+
+# ── Models (too large for git) ────────────────────────────────────────────────
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pth
+api/models/*.pkl
+api/models/*.joblib
+
+# ── MLflow ────────────────────────────────────────────────────────────────────
+mlruns/
+.mlflow
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs/
+*.log
+*.log.*
+
+# ── Environment ──────────────────────────────────────────────────────────────
+.env
+.env.production
+.env.staging
+*.env
+secrets/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+.dockerignore
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+
+# ── AWS & Deployment ────────────────────────────────────────────────────────
+*.pem
+*.pub
+terraform/.terraform/
+terraform/terraform.tfstate*
+.terraform/
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Miscellaneous ─────────────────────────────────────────────────────────────
+Shivam/
+.vscode/settings.json
+.idea/
+*.bak

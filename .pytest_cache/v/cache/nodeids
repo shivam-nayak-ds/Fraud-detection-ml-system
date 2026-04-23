@@ -1,0 +1,14 @@
+[
+  "tests/test_preprocessing.py::TestCleanData::test_caps_outliers",
+  "tests/test_preprocessing.py::TestCleanData::test_removes_duplicates",
+  "tests/test_preprocessing.py::TestCleanData::test_removes_negative_amounts",
+  "tests/test_preprocessing.py::TestDropMissingColumns::test_drops_high_missing_columns",
+  "tests/test_preprocessing.py::TestDropMissingColumns::test_keeps_low_missing_columns",
+  "tests/test_preprocessing.py::TestEncodeColumns::test_encodes_low_cardinality",
+  "tests/test_preprocessing.py::TestEncodeColumns::test_no_object_columns_after_encoding",
+  "tests/test_preprocessing.py::TestFillMissingValues::test_fills_categorical_with_mode",
+  "tests/test_preprocessing.py::TestFillMissingValues::test_fills_numeric_with_median",
+  "tests/test_preprocessing.py::TestFillMissingValues::test_no_nulls_after_fill",
+  "tests/test_preprocessing.py::TestSplitData::test_no_target_in_features",
+  "tests/test_preprocessing.py::TestSplitData::test_split_sizes"
+]

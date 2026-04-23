@@ -1,0 +1,5 @@
+outs:
+- md5: 07c0e3995ca31693aa5320339cdde4de
+  size: 1146880
+  hash: md5
+  path: fraud_detection.db
